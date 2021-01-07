@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+}
+.page-blocks{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.title{
+    font-variant: small-caps;
+    font-size: 70px;
+    margin: 60px;
+    letter-spacing: 10px;
+    color: #0f4c75;
+}
+.flex-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.why-us-flex-item{
+    background: #0f4c75;
+    color: white;
+    width: 20%;
+    padding: 40px;
+    margin: 20px;
+}
+.block-label{
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.block-description{
+    text-align: justify;
+}
+.appointment-flex-item{
+    background: #0f4c75;
+    color: white;
+    height: 450px;
+    width: 45%;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.appointment-img{
+    background-image:url("contact-us.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.appointment-text{
+    padding: 200px;
+    font-size: 50px;
+    background: rgba(0,0,0,0.5);
+}
+.appointment-form{
+    padding: 20px;
+}
+.appointment-form input, textarea{
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    color: #0f4c75;
+    font-size: 16px;
+}
+.appointment-form textarea{
+    height: 70px;
+    max-height: 70px;
+    max-width: 60%;
+    overflow-y: scroll;
+}
+.contact{
+    border: 5px solid white;
+    background: transparent;
+    color:white;
+    padding: 10px;
+    outline: none;
+}
+.contact:hover{
+    background: white;
+    color: #0f4c75;
+    font-weight: bolder;
+}
