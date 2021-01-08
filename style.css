@@ -1,0 +1,43 @@
+.container{
+    background-color: gray;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    height: 33cm;
+    box-shadow: 0.5px 0.5px 30px 5px lightgray;
+    /* position: relative; */
+}
+
+.container1{
+    background-color: lightgray;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    /* padding: 65px 0 130px; */
+    /* box-shadow: 0.5px 0.5px 30px 5px lightgray; */
+}
+.box{
+    background-color: white; 
+    display: inline-block;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    height: 323px;
+    width: 540px;
+    margin: 5px;
+    
+}
+
+.image{
+    height: 100px;
+    width: 513px;
+}
+
+.con1{
+    color: black;
+    display: inline-block;
+    /* background-color:black; */
+    /* border:2px solid lightgrey; */
+}
+
+#col{
+    color: grey;
+}
+
