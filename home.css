@@ -1,0 +1,135 @@
+#div1{
+    background-image: url("https://i.pinimg.com/originals/5d/1a/bf/5d1abf1f8813fd226ea4026717525d04.jpg");
+    background-repeat: no-repeat;
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#logo{
+    border-radius: 50%;
+    width: 110%;
+}
+
+.carImg{
+    width: 600px;
+    height: 358px;
+}
+
+#caro1{
+    float: right;
+    width: 600px;
+    height: 360px;
+    padding-right:0%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 0%;
+    padding-bottom: 0%;
+
+   /* background-origin: padding-box; */
+    /*border:indigo;
+    border-style: groove; */
+}
+
+#caro2{
+    float: left;
+    width: 600px;
+    height: 440px,auto;
+    padding-right:0%;
+    margin-left: 20px;
+    padding-left: 0%;
+    padding-bottom: 0%;
+
+}
+
+.desg{
+    height:700px;
+}
+
+#des1{
+    float:left;
+    height: 300px;
+    width: 450px;
+    margin-left: 100px;
+    border-color: rgb(198, 198, 219);
+    border-style:groove;
+
+}
+#des2{
+    float:right;
+    height: 300px;
+    width: 450px;
+    margin-right: 100px;
+    border-color: rgb(198, 198, 219);
+    border-style:groove;
+
+}
+
+#imgHeader{
+    float: right;
+    color:azure;
+    margin-right: 250px;
+    font-weight: 1000;
+}
+
+#imgButton{
+    float: right;
+    margin-right: 700px;
+    font-size: 24px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.news{
+    width:300px;
+    height: 200px,auto;
+    float: left;
+    background-color:  rgb(98, 99, 100);
+    border-radius: 6px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 3px;
+}
+
+#n1{
+    margin-left: 20px;
+
+}
+#n2{
+    margin-left: 150px;
+    
+}
+
+
+#n3{
+    margin-right: 20px;
+    float: right;  
+}
+
+
+
+
+
+/* FOOTER SECTION HERE*/
+#footer {
+    background: #7e566c;
+    padding: 65px 0 130px;
+    font-size: 17px;
+}
+
+
+
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section{
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display:block;
+}
